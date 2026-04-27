@@ -37,6 +37,15 @@ protected:
 	UPROPERTY(EditAnywhere, Category="Input")
 	UInputAction* JumpAction;
 
+	/** Shrink Input Action */
+	UPROPERTY(EditAnywhere, Category = "Input")
+
+	UInputAction* ShrinkAction;
+
+	/** Enlarge Input Action */
+	UPROPERTY(EditAnywhere, Category = "Input")
+
+	UInputAction* EnlargeAction;
 	/** Move Input Action */
 	UPROPERTY(EditAnywhere, Category="Input")
 	UInputAction* MoveAction;
