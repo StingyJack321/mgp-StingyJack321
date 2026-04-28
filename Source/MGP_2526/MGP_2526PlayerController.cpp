@@ -23,7 +23,7 @@ void AMGP_2526PlayerController::BeginPlay()
 		{
 			// add the controls to the player screen
 			MobileControlsWidget->AddToPlayerScreen(0);
-
+			w
 		} else {
 
 			UE_LOG(LogMGP_2526, Error, TEXT("Could not spawn mobile controls widget."));
